@@ -1,0 +1,77 @@
+body{
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'East Sea Dokdo', cursive;
+    background-image: url(image/soju.jpeg)
+}
+
+
+.container{
+    border:10px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(247, 243, 242,0.7);
+    
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    height:100%;
+}
+.border-line{
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+#inputPassword2{
+    height:80px;
+    width:500px;
+    font-size:50pt;
+    margin-right:20px;
+}
+
+.button-style{
+    height: 80px;
+    width:100px;
+    margin-top:5px;
+    border-radius: 50px;
+    font-size:30pt;
+    font-weight: bold;
+}
+.pre-title{
+    font-size: 60pt;
+    font-weight: bold;
+}
+.title{
+    font-size: 100pt;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.sub-title{
+    font-size: 80pt;
+    font-weight: bold;
+}
+.okta{
+    color:blue;
+}
+.red-text{
+    color:red
+}
+#result-text{
+    font-size:50pt
+}
+
+.form-control{
+    height:80px;
+    width:50%;
+    font-size: 50pt;
+    margin-right: 20px;
+    text-align: center;
+}
