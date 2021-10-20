@@ -1,77 +1,102 @@
-body{
-    /* background-repeat: no-repeat; */
-    background-size: cover;
-    height:100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'East Sea Dokdo', cursive;
-    background-image: url(image/soju.jpeg)
+body {
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "East Sea Dokdo", cursive;
+  background-image: url(image/soju.jpeg);
 }
 
-
-.container{
-    border:10px solid white;
-    border-radius: 20px;
-    text-align: center;
-    background-color: rgba(247, 243, 242,0.7);
-    
+.container {
+  border: 10px solid white;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgba(247, 243, 242, 0.7);
 }
 
-.section{
-    display: flex;
-    align-items: center;
-    height:100%;
+.section {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
-.border-line{
-    padding-bottom: 20px;
-    display:flex;
-    justify-content: center;
-}
-
-#inputPassword2{
-    height:80px;
-    width:500px;
-    font-size:50pt;
-    margin-right:20px;
+.border-line {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-.button-style{
-    height: 80px;
-    width:100px;
-    margin-top:5px;
-    border-radius: 50px;
-    font-size:30pt;
-    font-weight: bold;
-}
-.pre-title{
-    font-size: 60pt;
-    font-weight: bold;
-}
-.title{
-    font-size: 100pt;
-    font-weight: bold;
-    margin-top: 30px;
-}
-.sub-title{
-    font-size: 80pt;
-    font-weight: bold;
-}
-.okta{
-    color:blue;
-}
-.red-text{
-    color:red
-}
-#result-text{
-    font-size:50pt
+#inputPassword2 {
+  height: 80px;
+  width: 500px;
+  font-size: 4vw;
+  margin-right: 20px;
 }
 
-.form-control{
-    height:80px;
-    width:50%;
-    font-size: 50pt;
-    margin-right: 20px;
-    text-align: center;
+.button-style {
+  height: 80px;
+  width: 100px;
+  margin-top: 5px;
+  border-radius: 50px;
+  font-size: 30pt;
+  font-weight: bold;
+}
+.pre-title {
+  font-size: 5vw;
+  font-weight: bold;
+  color: blue;
+}
+.title {
+  font-size: 7vw;
+  font-weight: bold;
+}
+.sub-title {
+  font-size: 6vw;
+  font-weight: bold;
+}
+
+.main-img {
+  width: 20vw;
+}
+
+.red-text {
+  color: red;
+}
+#result-text {
+  font-size: 50pt;
+}
+
+.form-control {
+  height: 80px;
+
+  font-size: 3vw;
+  margin-right: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 48rem) {
+  .pre-title {
+    font-size: 10vw;
+  }
+  .title {
+    font-size: 12vw;
+  }
+  .sub-title {
+    font-size: 11vw;
+  }
+  .form-control {
+    font-size: 8vw;
+    max-width: 500px;
+    margin-right: 0px;
+  }
+  .main-img {
+    width: 40vw;
+  }
+  .button-reset {
+    font-size: 5vw;
+    width: 80px;
+    height: 60px;
+  }
 }

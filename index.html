@@ -11,28 +11,28 @@
 </head>
 
 <body>
-    
-        <div class="container">
-            <h1 class="pre-title"><span class="okta">OKTA</span> 차세대 엠티</h1>
-            <h1 class="title">술게임</h1>
-            <h1 class="sub-title"><span class="red-text">죽음</span>의 업 & 다운</h1>
-            <div id="resultArea">
-                <img src="https://media1.giphy.com/media/9DinPR8bzFsmf74j9W/giphy.gif"/ width=300 height=168>
-                <h1 class="result-text">죽기 싫다면 맞춰라</h1>
+
+    <div class="container">
+        <h1 class="pre-title">코알누 대학 엠티</h1>
+        <h1 class="title">술게임</h1>
+        <h1 class="sub-title"><span class="red-text">죽음</span>의 업 & 다운</h1>
+        <div id="resultArea">
+            <img src="https://media1.giphy.com/media/9DinPR8bzFsmf74j9W/giphy.gif" class="main-img">
+            <h1 class="result-text">죽기 싫다면 맞춰라</h1>
+        </div>
+
+        <form class="form-inline border-line" onsubmit="guess(event)">
+            <div class="form-group">
+                <input type="number" class="form-control mb-10" id="guessNumber" placeholder="1부터 100까지 숫자를 입력" />
             </div>
-            
-            <form class="form-inline border-line" onsubmit="guess(event)">
-                <div class="form-group">
-                  <input type="number" class="form-control mb-10" id="guessNumber" placeholder="1부터 100까지 숫자를 입력"/>
-                </div>
-                <button type="submit" class="btn btn-success mb-2 button-style">Go!!</button>
-              </form>
+            <button type="submit" class="btn btn-success mb-2 button-style">Go!!</button>
+        </form>
 
 
-        
+
     </div>
-    <button class="btn btn-warning mb-2 button-style" onclick="reset()">리셋!</button>
-    
+    <button class="btn btn-warning mt-3 button-style button-reset" onclick="reset()">리셋!</button>
+
     <script src="main.js"></script>
 </body>
 
