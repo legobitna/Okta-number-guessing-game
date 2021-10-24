@@ -64,9 +64,6 @@ body {
 .red-text {
   color: red;
 }
-#result-text {
-  font-size: 50pt;
-}
 
 .form-control {
   height: 80px;
