@@ -17,7 +17,9 @@ userInput.addEventListener("focus", focusInput);
 
 function pickRandomNumber() {
   // 랜덤숫자 뽑기
+
   computerNumber = Math.floor(Math.random() * 100) + 1;
+  console.log("정답", computerNumber);
 }
 
 function play() {
@@ -76,7 +78,7 @@ function reset() {
   playButton.disabled = false;
   chances = 5;
   chanceArea.innerHTML = `남은 기회:${chances}`;
+  userValueList = [];
 }
 
 pickRandomNumber();
-console.log("정답", computerNumber);
