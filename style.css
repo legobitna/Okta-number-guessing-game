@@ -28,12 +28,7 @@ body {
   justify-content: center;
 }
 
-#inputPassword2 {
-  height: 80px;
-  width: 500px;
-  font-size: 4vw;
-  margin-right: 20px;
-}
+
 
 .button-style {
   height: 80px;
